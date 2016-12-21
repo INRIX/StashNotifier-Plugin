@@ -1,3 +1,20 @@
+INRIX:
+=======================================
+This plugin disappeard from the list of available plugins on the plugin manager
+page in Jenkins. I (Justen B.) verified this on the Analytics installation,
+the new INRIX DN installation and my own AWS VPC installation. As such this
+plugin is deployed manually and forked into the INRIX account.
+
+The bug tracking the issue can be found here:
+https://issues.jenkins-ci.org/browse/JENKINS-40374
+
+The plugin can be built by running 'mvn package' and installing the .hpi
+file from the target directory on the "Advanced" tab on the plugin manager
+page in the Jenkins installation.
+
+
+
+
 Stash Build Notifier Plugin for Jenkins
 =======================================
 
